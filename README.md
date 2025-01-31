@@ -96,12 +96,19 @@ What did we name the topic used with csv data?
 *Answer: "SMOKER_TOPIC"*
 
 Hint: See the producer code and [.env](.env).
-## Follow a similar process to start the csv producer. You will need to: Windows:##
+
+## Follow a similar process to start the csv producer. You will need to: Windows
 
 ```Shell
 .venv\Scripts\activate
 py -m producers.csv_producer_case
 ````
+
+Mac/Linux:
+```zsh
+source .venv/bin/activate
+python3 -m consumers.csv_consumer_case
+```
 
 ## Task 8. Start a CSV Consumer
 
@@ -114,9 +121,15 @@ You will need to:
 5. Know the full name of the module you want to run. Hint: Look in the consumers folder.
 
 ## Follow a similar process to start the csv producer. You will need to: Windows: 
+
 ```Shell
 .venv\Scripts\activate
 py -m producers.csv_producer_case
+```
+Mac/Linux:
+```zsh
+source .venv/bin/activate
+python3 -m producer.csv_producer_case
 ```
 
 What did we name the topic used with csv data? 
