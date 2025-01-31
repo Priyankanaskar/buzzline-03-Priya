@@ -92,7 +92,16 @@ You will need to:
 5. Know the full name of the module you want to run. Hint: Look in the producers folder.
 
 What did we name the topic used with csv data? 
+
+*Answer: "SMOKER_TOPIC"*
+
 Hint: See the producer code and [.env](.env).
+## Follow a similar process to start the csv producer. You will need to: Windows:##
+
+```Shell
+.venv\Scripts\activate
+py -m producers.csv_producer_case
+````
 
 ## Task 8. Start a CSV Consumer
 
@@ -104,7 +113,16 @@ You will need to:
 4. Know how to use the -m (module flag to run your file as a module).
 5. Know the full name of the module you want to run. Hint: Look in the consumers folder.
 
+## Follow a similar process to start the csv producer. You will need to: Windows: 
+```Shell
+.venv\Scripts\activate
+py -m producers.csv_producer_case
+```
+
 What did we name the topic used with csv data? 
+
+*Answer: "SMOKER_TOPIC"*
+
 Hint: See the consumer code and [.env](.env).
 
 ## About the Smart Smoker (CSV Example)
