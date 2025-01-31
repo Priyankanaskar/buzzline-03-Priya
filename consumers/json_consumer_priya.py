@@ -1,16 +1,20 @@
 """
-json_consumer_case.py
+json_consumer_priya.py
 
 Consume json messages from a Kafka topic and process them.
 
 JSON is a set of key:value pairs. 
 
 Example serialized Kafka message
-"{\"message\": \"I love Python!\", \"author\": \"Eve\"}"
+"{\"message\": \"Kafka is a distributed event streaming platform that can handle real-time data feeds efficiently!\", \"author\": \"Alice\", \"timestamp\": \"2025-01-31T12:00:00Z\", \"topic\": \"tech\"}"
 
 Example JSON message (after deserialization) to be analyzed
-{"message": "I love Python!", "author": "Eve"}
-
+{
+  "message": "Kafka is a distributed event streaming platform that can handle real-time data feeds efficiently!",
+  "author": "Alice",
+  "timestamp": "2025-01-31T12:00:00Z",
+  "topic": "tech"
+}
 """
 
 #####################################

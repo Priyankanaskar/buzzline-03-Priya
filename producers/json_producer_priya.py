@@ -1,13 +1,19 @@
 """
-json_producer_case.py
+json_producer_priya.py
 
 Stream JSON data to a Kafka topic.
 
 Example JSON message
-{"message": "I love Python!", "author": "Eve"}
+{
+  "message": "Kafka is a distributed event streaming platform that can handle real-time data feeds efficiently!",
+  "author": "Alice",
+  "timestamp": "2025-01-31T12:00:00Z",
+  "topic": "tech"
+}
 
 Example serialized to Kafka message
-"{\"message\": \"I love Python!\", \"author\": \"Eve\"}"
+"{\"message\": \"Kafka is a distributed event streaming platform that can handle real-time data feeds efficiently!\", \"author\": \"Alice\", \"timestamp\": \"2025-01-31T12:00:00Z\", \"topic\": \"tech\"}"
+
 
 """
 

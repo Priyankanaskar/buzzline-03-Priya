@@ -49,12 +49,24 @@ Windows:
 .venv\Scripts\activate
 py -m producers.json_producer_case
 ```
+or 
+```Shell
+.venv\Scripts\activate
+py -m producers.json_producer_priya
+```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
 python3 -m producers.json_producer_case
 ```
+or 
+Mac/Linux:
+```ZSH
+.venv\Scripts\activate
+python3 -m producers.json_producer_priya
+```
+
 
 What did we name the topic used with JSON data? 
 Hint: See the producer code and [.env](.env).
@@ -71,11 +83,25 @@ Windows:
 .venv\Scripts\activate
 py -m consumers.json_consumer_case
 ```
+or
+Windows:
+```shell
+.venv\Scripts\activate
+py -m consumers.json_consumer_priya
+```
+
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
 python3 -m consumers.json_consumer_case
+```
+or 
+
+Mac/Linux:
+```zsh
+source .venv/bin/activate
+python3 -m consumers.json_consumer_priya
 ```
 
 What did we name the topic used with JSON data? 
